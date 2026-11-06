@@ -46,25 +46,36 @@ Desenvolver um sistema web de locação de veículos com API REST em Node.js e E
 - Instalar as dependências
 
   Back
-  ``cd backend``
+  ``cd back``
     
     Para iniciar o projeto
-    ``npm init -y``
-    ``npm install express``
-    ``npm i cors``
-    ``npm i dotenv``
-    ``npm i bcrypt`` 
-    ``npm i jsonwebtoken``
-    ``npm i @prisma/client`` 
-    ``npm install -D prisma``
-    ``npm i -D nodemon``
+-    ``npm init -y``
+-    ``npm install express``
+-    ``npm i cors``
+-    ``npm i dotenv``
+-    ``npm i bcrypt`` 
+-    ``npm i jsonwebtoken``
+-    ``npm i @prisma/client`` 
+-    ``npm install -D prisma``
+-    ``npm i -D nodemon``
 
-    Comando para instar
-    ``npm install``
+    Comando para instar todas as dependências do backend
+-    ``npm install``
 
   Front
-  ``cd front``
-    ``npm install``
+  ``npm create vite@latest front``
+  - continue y
+  - react
+  - TypeScript
+- ESLint
+- Visualizar a página - crt + (click na url) ou no browser: localhost:5173
+
+- ``npm i``
+- ``npm install axios react-hook-form``
+
+
+    Comando para instar todas as dependências do frontend
+-    ``npm install``
 
 ## Configuração do banco
 - Criar um arquilo .env com a URL de conexão e as variáveis;
